@@ -1,0 +1,28 @@
+<svg width="180" height="180" viewBox="0 0 180 180" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="180" height="180" rx="36" fill="#0C1A2E"/>
+
+  <!-- Gold ring -->
+  <circle cx="90" cy="82" r="52" fill="none" stroke="url(#gold)" stroke-width="4"/>
+  <circle cx="90" cy="82" r="42" fill="none" stroke="url(#gold)" stroke-width="1" stroke-opacity="0.35"/>
+
+  <!-- Bar chart (3 ascending bars) -->
+  <rect x="54" y="90" width="14" height="22" rx="2" fill="url(#gold)"/>
+  <rect x="74" y="74" width="14" height="38" rx="2" fill="url(#gold)"/>
+  <rect x="94" y="58" width="14" height="54" rx="2" fill="url(#gold)"/>
+
+  <!-- Swoosh arrow -->
+  <path d="M38 106 C58 64 82 52 128 40" stroke="url(#steel)" stroke-width="7" stroke-linecap="round" fill="none"/>
+  <path d="M118 34 L129 40 L122 50" stroke="url(#steel)" stroke-width="6" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+
+  <defs>
+    <linearGradient id="gold" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#F5D67A"/>
+      <stop offset="100%" stop-color="#B8860B"/>
+    </linearGradient>
+    <linearGradient id="steel" x1="0%" y1="100%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#3B6090"/>
+      <stop offset="100%" stop-color="#7AADD4"/>
+    </linearGradient>
+  </defs>
+</svg>
