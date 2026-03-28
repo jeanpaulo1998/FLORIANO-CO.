@@ -1,14 +1,6 @@
-import { ShieldCheck, Banknote, Clock, Smile } from 'lucide-react'
+import { Banknote, Clock, Smile } from 'lucide-react'
 
 const benefits = [
-  {
-    icon: ShieldCheck,
-    title: 'Sem risco de malha fina',
-    description: 'Declaração feita com atenção a cada campo. Revisamos tudo antes de transmitir para evitar qualquer problema com a Receita Federal.',
-    gradient: 'from-blue-500 to-cyan-500',
-    iconBg: 'bg-blue-50 border-blue-200',
-    iconColor: 'text-blue-600'
-  },
   {
     icon: Banknote,
     title: 'Maximize sua restituição',
