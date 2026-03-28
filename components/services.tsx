@@ -17,14 +17,14 @@ const services = [
   {
     id: 2,
     icon: Briefcase,
-    title: 'Autônomo e MEI',
-    subtitle: 'Profissionais liberais e MEI',
-    description: 'Declaração para autônomos, freelancers e MEI com rendimentos variáveis ou múltiplas fontes.',
+    title: 'MEI e Autônomo',
+    subtitle: 'DASN-SIMEI + IR do titular',
+    description: 'Declaração do MEI (DASN-SIMEI) e do IR pessoal do titular, tudo em um único atendimento.',
     benefits: [
-      'Controle de rendimentos variáveis',
-      'Deduções de despesas profissionais',
-      'Livro caixa quando necessário',
-      'Orientação sobre pró-labore'
+      'DASN-SIMEI anual do MEI',
+      'IR pessoa física do sócio',
+      'Rendimentos do pró-labore',
+      'Deduções de despesas profissionais'
     ]
   },
   {
